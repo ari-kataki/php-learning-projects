@@ -1,0 +1,112 @@
+            ul{
+                list-style: none;
+            }
+            
+            .frame{
+                border: 5px solid black;
+                border-radius: 5px;
+                width: 100%;
+            }
+
+            .row{
+                width: 100%;
+            }
+
+
+            /* PRIMA RIGA */
+            .top{
+                box-sizing: border-box;
+                display: inline-block;
+                border-bottom: 1px solid black;
+                width: 50%;
+            }
+
+            .name{
+                display: inline-block;
+                text-align: center;
+                border: none;
+                width: 100%;
+                background-color:aquamarine;
+                padding: 10px;
+            }
+
+            .firstname{
+                border-right: 1px solid black;
+            }
+
+            .lastname{
+                border-left: 1px solid black;
+            }
+
+
+            /* SECONDA RIGA */
+            .main{
+                box-sizing: border-box;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+
+                width: 33.3333%;
+                background-color:darksalmon;
+
+            }
+
+            .sex{
+                padding: 20px;
+                
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;
+            }
+
+            .display{
+                padding: 35px;
+                
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;
+                border-left: 1px solid black;
+            }
+
+            .age{
+                padding: 20px;
+                
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-left: 1px solid black;
+            }
+
+            .but{
+                border: 2px solid black;
+                border-radius: 25%;
+                width: 30px;
+                height: 30px;
+                
+            }
+
+            .select{
+                border: 2px solid black;
+                border-radius: 25%;
+                width: 40px;
+                height: 30px;
+            }
+
+
+            /* TERZA RIGA */
+            .bottom{
+                box-sizing: border-box;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                width: 100%;
+                padding: 10px;
+                
+                background-color:deepskyblue;
+                border-top: 1px solid black; 
+            }
+
+            .submit{
+                border: 2px solid black;
+                border-radius: 25%;
+                width: 60px;
+            }

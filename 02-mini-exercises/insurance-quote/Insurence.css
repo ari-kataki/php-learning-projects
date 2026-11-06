@@ -1,0 +1,175 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.field select {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.input-age {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.years-licensed {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.field-checkbox {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.field-checkbox label {
+    display: inline;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+}
+
+.error-summary {
+    margin-top: 15px;
+}
+
+
+.btn-calculate {
+    width: 100%;
+    padding: 10px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    border-top: 2px solid #eee;
+    padding-top: 15px;
+}
+
+.result h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+
+.result-item {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+}
+
+.result-item span:first-child {
+    text-align: left;
+}
+
+.result-item span:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.result-increment {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #c00;
+}
+
+.result-increment span:first-child {
+    align-items: left;
+}
+
+.result-increment span:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.no-surcharges {
+    color: #888;
+    font-size: 13px;
+    padding: 6px 0;
+}
+
+
+.result-total {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    border-top: 2px solid #333;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.result-total span:first-child {
+    text-align: left;
+}
+
+.result-total span:last-child {
+    text-align: right;
+}

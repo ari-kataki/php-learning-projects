@@ -1,0 +1,67 @@
+        .container {
+            width: 300px;
+            margin: auto;
+            border: auto;
+            border-radius: 40px;
+            padding: 10px;
+        }
+        #input-number {
+            width: 98%;
+            height: 60px;
+            font-size: 30px;
+            text-align: center;
+            border-radius: 20px;
+            background: #eee;
+        }
+        #status {
+            text-align: center;
+            font-size: 20px;
+            margin: 10px 0;
+            height: 30px;
+        }
+        table {
+            margin: auto;
+        }
+        td {
+            text-align: center;
+            padding: 5px;
+        }
+        .number {
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            border-radius: 50%;
+            background: white;
+            border: 1px solid gray;
+        }
+        .letters {
+            font-size: 12px;
+            line-height: 1;
+        }
+        .call-controls {
+            text-align: center;
+            margin-top: 15px;
+        }
+        #pick-up-call-button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: green;
+            border: none;
+        }
+        #hang-up-call-button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: red;
+            border: none;
+        }
+        #del-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: gray;
+            border: none;
+            float: right;
+            margin: 5px;
+        }

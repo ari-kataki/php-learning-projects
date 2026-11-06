@@ -1,0 +1,72 @@
+
+.calcolatriceContainer {
+    background-color:#332aa6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.numberZone {
+    margin-bottom: 20px;
+}
+
+.inputZone {
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.horizontalLines {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #222;
+}
+
+.butt {
+    width: 50px;
+    display: inline-block;
+    margin: 5px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.butt:hover {
+    background-color: #ddd;
+}
+.buttReset{ 
+    background-color: cadetblue;
+    width: 100px;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttEgale{ 
+    background-color:red;
+    width: 100px;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
